@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        h2{
+            font-size: 14px;
+        }
+        form{
+            background-color: lightgreen;
+            padding: 10px;
+            width: 400px;
+            box-shadow: 0 0 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+    <form>
+        <label for="user">User Name</label>
+        <input type="text" id="user">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="user">
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>User Name</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text"
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password">
+                </td>
+            <tr>
+                <td>
+                    <input type="Submit" value="Submit"
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="Reset"
+                </td>
+            <tr>
+        </table>
+
+    </form>
+
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <form>
+        <label>
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>Jquary</option>
+                <option>Ajay</option>
+                <option>BOOTSTRAP</option>
+                <option>Angular jS</option>
+            </select>
+        </label>
+    </form>
+    <!--Select Tag with optgroup -->
+    <form>
+        <label>Select a Tecnology</label>
+        <select>
+            <optgroup label="languages">
+                <option>Java</option>
+                <option>PHP</option>
+                <option>PYTHON</option>
+            </optgroup>
+            <optgroup label="Scripts">
+                <option>Shell</option>
+                <option>JavaScript</option>
+            </optgroup>
+        </select>
+    </form>
+
+
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+    <form>
+        <label>Your Message</label>
+        <textarea rows="5" cols="30"></textarea>
+    </form>
+
+    <!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+    <form>
+        <label for="Language">Select a language</label>
+        <input list="language">
+        <datalist id="language">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Jquary</option>
+            <option>Ajay</option>
+            <option>BOOTSTRAP</option>
+            <option>Angular jS</option>
+        </datalist>
+    </form>
+
+
+</body>
+</html>
